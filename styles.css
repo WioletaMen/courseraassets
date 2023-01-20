@@ -1,0 +1,159 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background-color: #FDFDFD;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 60%;
+    min-width: 240px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EEE9E7;
+    top: 0;
+    width: 100%;
+}
+
+nav li:last-child {
+    background-color:#D3C2B4;
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid #EEE9E7;
+}
+
+li a {
+    display: block;
+    color: #483129;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #bb9e89;
+}
+
+li a:active {
+    background-color: #AA856A;
+  }
+
+.mainsale {
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #483129;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .mainsale img {
+    display: block;
+  }
+
+  .clearance {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translateY(-50%);
+  }
+
+  .clearance h3 {
+    font-size: clamp(1rem, 2.5vw, 2.5rem); 
+  }
+
+  .clearance h2 {
+    font-size: clamp(1rem, 3.5vw, 3.5rem); 
+    animation: color-change 2s infinite;
+  }
+
+  @keyframes color-change {
+    0% { color: #483129; }
+    50% { color: #e20808; }
+    100% { color: #483129; }
+  }
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.container a:link {
+    color:#AA856A;
+} 
+
+.container a:hover {
+    color:#483129;
+} 
+
+article {
+    flex: 1;
+    background-color:#F2EBE7;
+    text-align: center;
+}
+
+p {
+text-align:center;
+margin: 5%;
+}
+
+.center {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+footer {
+    display: flex;
+    margin-top: 10px;
+}
+
+footer div {
+    flex: 1;
+}
+
+.smalllogo {
+    width: 30%;
+    min-width: 100px;
+    max-width: 150px;
+    margin: 5px;
+}
+
+.copyrights p {
+    text-align: right;
+    margin: 0;
+}
